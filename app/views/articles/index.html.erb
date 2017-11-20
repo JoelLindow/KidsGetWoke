@@ -1,0 +1,7 @@
+<h2>THESE ARE THE STORIES PEOPLE ARE TRYING TO HIDE FROM YOU</h2>
+
+<% @articles.each do |article| %>
+<img class="index_image" src="<%= article.main_img_url %>" alt="">
+<h3><%= link_to article.title, article_path(article) %></h3>
+<br>
+<% end %>

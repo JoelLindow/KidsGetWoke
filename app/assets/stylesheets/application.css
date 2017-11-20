@@ -13,3 +13,41 @@
  *= require_tree .
  *= require_self
  */
+
+html {
+  background-color: black;
+  color: white;
+}
+.center_text_no_marg {
+  text-align: center;
+  margin: 0px;
+}
+.header_bottom {
+  border-width: thin;
+  border-color: yellow;
+  border-style: solid;
+  margin-bottom: 10px;
+}
+.computer_font {
+  font-family: 'Share Tech Mono', monospace;
+}
+.index_image {
+  width: 250px;
+}
+.show_main_image {
+  height: 250px;
+}
+.show_body {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.show_evidence_image {
+  width: 40%;
+}
+.main_title {
+  font-size: 50px;
+  color: yellow;
+}
+.nav_links {
+  font-size: 20px;
+}
