@@ -26,6 +26,4 @@ class ArticlesController < ApplicationController
     params.require(:article).permit(:title, :author_name, :main_img_url, :paragraph_one, :paragraph_two, :paragraph_three, :evidence_img_one_url, :evidence_img_two_url)
   end
 
-  def nothing
-  end
 end
