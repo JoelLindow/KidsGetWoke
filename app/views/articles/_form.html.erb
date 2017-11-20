@@ -1,0 +1,46 @@
+<%= form_with(model: article, local: true) do |form| %>
+
+<div class="field">
+  <%= form.label :title %><br>
+  <%= form.text_field :title %>
+</div>
+
+<div class="field">
+  <%= form.label :author_name %><br>
+  <%= form.text_field :author_name %>
+</div>
+
+<div class="field">
+  <%= form.label :main_img_url %><br>
+  <%= form.text_field :main_img_url %>
+</div>
+
+<div class="field">
+  <%= form.label :paragraph_one %><br>
+  <%= form.text_area :paragraph_one %>
+</div>
+
+<div class="field">
+  <%= form.label :evidence_image_one_url %><br>
+  <%= form.text_field :evidence_img_one_url %>
+</div>
+
+<div class="field">
+  <%= form.label :evidence_image_two_url %><br>
+  <%= form.text_field :evidence_img_two_url %>
+</div>
+
+<div class="field">
+  <%= form.label :paragraph_two %><br>
+  <%= form.text_area :paragraph_two %>
+</div>
+
+<div class="field">
+  <%= form.label :paragraph_three %><br>
+  <%= form.text_area :paragraph_three %>
+</div>
+
+<div class="actions">
+  <%= form.submit %>
+</div><br>
+<% end %>
